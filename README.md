@@ -31,7 +31,7 @@ Set<HostAndPort> nodes = new HashSet<>();
 
 
 
-###BloomFilter
+### BloomFilter
 Initializing the client:
 
 ```java
@@ -71,7 +71,7 @@ Delte the fitler
 bfClusterClient.deleteFilter("specialBloom") //true
 ```
 
-###CuckooFilter
+### CuckooFilter
 Initializing the client:
 
 ```java
